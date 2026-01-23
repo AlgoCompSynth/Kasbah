@@ -28,14 +28,16 @@ USB connection and any NVIDIA GPU. However, the container also has its own
 `$HOME` directory to avoid conflicting caches and configuration files with
 the host!
 
-Tools inside the container include:
+The Kasbah container includes:
 
 - Terminal-oriented utilities - the [Starship](https://starship.rs/) shell
 prompt, `git`, `vim`, `neovim`, `time`, `tree`, `info`, `plocate`, `lynx`,
-`apt-file`, `speedtest-cli`, and a command to start a host GUI app,
+`apt-file`, `speedtest-cli`, the
+[CascaydiaCove](https://www.nerdfonts.com/font-downloads) nerd font,
+and a command to start a host GUI app,
 - The Bastl Kastle 2 SDK, of course, and
 - The [`ollama`](https://ollama.com/), [`Aider`](https://aider.chat/), and
-[DeepSeek-Coder-V2](https://github.com/deepseek-ai/DeepSeek-Coder-V2)
+[DeepSeek-Coder-V2](https://github.com/deepseek-ai/DeepSeek-Coder-V2) AI
 programming assist tools.
 
 ## Getting started
@@ -49,5 +51,12 @@ programming assist tools.
 ## Usage overview
 
 ## Coding assistant tools
+
+## Contributing
+
+Forks are welcomed / encouraged; I'm only one guy and this is not my only
+project. So are issues including feature requests and especially
+documentation questions. But I don't have the bandwidth to deal with pull
+requests. I'll be happy to point people to your enhanced forks, though.
 
 ## [Kasbah - Wikipedia](https://en.wikipedia.org/wiki/Kasbah)
