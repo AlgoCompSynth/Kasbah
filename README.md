@@ -14,3 +14,5 @@ A command line development container for the Bastl Kastle 2 SDK
 ## Usage overview
 
 ## Coding assistant tools
+
+## [Kasbah - Wikipedia](https://en.wikipedia.org/wiki/Kasbah)
