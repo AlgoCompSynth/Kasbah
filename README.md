@@ -16,6 +16,28 @@ running Raspberry Pi OS. I supply hosting install scripts for
 - Ubuntu 24.04 LTS `noble`, and
 - openSUSE Tumbleweed.
 
+[Distrobox](https://distrobox.it/) is used for container hosting. The Kasbah
+container can be built for either CPU only (the default) or CPU plus an
+NVIDIA GPU. It can probably be made to work on AMD GPUs but I don't have
+one to test on. Forks are welcomed for that!
+
+The Kasbah container runs Debian 13 `trixie` for maximum compatibility with
+Raspberry 4 and 5 systems. Inside the container, you have access to your
+host home directory, your host devices, including of course the Bastl device
+USB connection and any NVIDIA GPU. However, the container also has its own
+`$HOME` directory to avoid conflicting caches and configuration files with
+the host!
+
+Tools inside the container include:
+
+- Terminal-oriented utilities - the [Starship](https://starship.rs/) shell
+prompt, `git`, `vim`, `neovim`, `time`, `tree`, `info`, `plocate`, `lynx`,
+`apt-file`, `speedtest-cli`, and a command to start a host GUI app,
+- The Bastl Kastle 2 SDK, of course, and
+- The [`ollama`](https://ollama.com/), [`Aider`](https://aider.chat/), and
+[DeepSeek-Coder-V2](https://github.com/deepseek-ai/DeepSeek-Coder-V2)
+programming assist tools.
+
 ## Getting started
 
 ### Container hosting
