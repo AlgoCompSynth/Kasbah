@@ -10,3 +10,5 @@ A command line development container for the Bastl Kastle 2 SDK
 ## Getting the Bastl Kastle 2 SDK
 
 ## Usage overview
+
+## Coding assistant tools
