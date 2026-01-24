@@ -2,7 +2,6 @@
 
 set -e
 
-echo ""
 echo "** Distrobox **"
 
 pushd $HOME/Projects > /dev/null
@@ -13,5 +12,7 @@ pushd $HOME/Projects > /dev/null
   sudo ./install \
     >> $LOGFILE 2>&1
 popd > /dev/null
+distrobox --version
 
 echo "** Finished Distrobox **"
+echo ""
