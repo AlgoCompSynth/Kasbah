@@ -54,9 +54,9 @@ programming assist tools.
 
 ## Contributing
 
-Forks are welcomed / encouraged; I'm only one guy and this is not my only
-project. So are issues including feature requests and especially
-documentation questions. But I don't have the bandwidth to deal with pull
-requests. I'll be happy to point people to your enhanced forks, though.
+Forks are welcomed / encouraged; so are issues including feature requests
+and especially documentation questions. But I don't have the bandwidth to
+deal with pull requests. I'm only one guy and this is not my only
+project. I'll be happy to point people to your enhanced forks, though.
 
 ## [Kasbah - Wikipedia](https://en.wikipedia.org/wiki/Kasbah)
