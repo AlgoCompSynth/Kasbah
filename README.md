@@ -42,7 +42,19 @@ programming assist tools.
 
 ## Getting started
 
+Clone this repository and `cd` into it. I don't have a formal release
+schedule or any CI/CD plans at the moment, but I will be testing the
+`main` branch extensively on Bluefin and tracking host versions for
+Fedora, Debian Stable and Ubuntu LTS.
+
 ### Container hosting
+
+If you're using a Universal Blue host system, Aurora, Bazzite or Bluefin,
+all you need to do is make sure you're running the developer extensions
+(dx) and the `nvidia-open` variant if you have an NVIDIA GPU.
+
+For other Linux hosts, `cd host_tools/distrobox_install_scripts/` and
+execute the script for your host. These require `sudo` privileges.
 
 ### Installing the container
 
