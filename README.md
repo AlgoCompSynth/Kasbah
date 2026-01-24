@@ -12,7 +12,7 @@ can install it on most 64-bit Linux systems, including a Raspberry Pi 4 or 5
 running Raspberry Pi OS. I supply hosting install scripts for
 
 - Fedora 43,
-- Debian 13 `trixie`,
+- Debian 13 `trixie` / raspberry Pi OS,
 - Ubuntu 24.04 LTS `noble`, and
 - openSUSE Tumbleweed.
 
