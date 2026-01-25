@@ -21,7 +21,8 @@ for model in \
   glm-4.7-flash:latest \
   gpt-oss:latest \
   qwen3-coder:latest \
-  deepseek-coder-v2:latest
+  deepseek-coder-v2:latest \
+  mistral:7b-instruct-v0.3-q4_K_M
 
 do
   echo "pulling $model"

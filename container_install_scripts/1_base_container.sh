@@ -6,7 +6,7 @@ echo "* Base Container *"
 
 echo ""
 echo "Setting environment variables"
-source set_envars.CPU
+source set_envars
 
 export LOGFILE=$LOGFILES/base_container.log
 rm --force $LOGFILE
@@ -21,7 +21,7 @@ rm --recursive --force $DBX_CONTAINER_DIRECTORY
 echo "Setting container and image names"
 echo "[$DBX_CONTAINER_NAME]" > distrobox.ini
 echo "image=$DBX_CONTAINER_IMAGE" >> distrobox.ini
-cat distrobox.ini.CPU >> distrobox.ini
+cat distrobox.ini.base >> distrobox.ini
 
 echo ""
 echo "Creating container - installing basic packages"
