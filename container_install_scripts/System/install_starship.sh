@@ -1,1 +1,1 @@
-../../host_tools/distrobox_install_scripts/install_starship.sh
+../../distrobox_hosting/install_starship.sh

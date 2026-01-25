@@ -1,1 +1,1 @@
-../../host_tools/distrobox_install_scripts/nerd_fonts.sh
+../../distrobox_hosting/nerd_fonts.sh

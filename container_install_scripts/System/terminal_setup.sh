@@ -1,1 +1,1 @@
-../../host_tools/distrobox_install_scripts/2_terminal_setup.sh
+../../distrobox_hosting/2_terminal_setup.sh

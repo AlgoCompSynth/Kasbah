@@ -1,6 +1,0 @@
-#! /usr/bin/env bash
-
-set -e
-
-mkdir --parents $HOME/Logfiles
-$HOME/.local/bin/ollama serve > $HOME/Logfiles/ollama.log 2>&1 &
