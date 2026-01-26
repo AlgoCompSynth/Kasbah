@@ -7,7 +7,7 @@ echo "*** Ollama Server Setup ***"
 export LOGFILES=$HOME/Logfiles
 mkdir --parents $LOGFILES
 
-echo "Starting ollama server"
+echo "Creating ollama server - you can ignore error if it already exists"
 # https://hub.docker.com/r/ollama/ollama#start-the-container
 podman run \
   -d --gpus=all \
@@ -17,12 +17,19 @@ podman run \
   docker.io/ollama/ollama:latest \
   || true
 
+if [[ $(podman ps | grep ollama | wc -l) == "0" ]]
+then
+  echo "ollama server is not running - starting it"
+  podman start ollama || true
+fi
+
 for model in \
+  deepseek-coder-v2:latest \
   glm-4.7-flash:latest \
   gpt-oss:latest \
+  llama3.1:latest \
+  mistral:latest\
   qwen3-coder:latest \
-  deepseek-coder-v2:latest \
-  mistral:7b-instruct-v0.3-q4_K_M
 
 do
   echo "pulling $model"
