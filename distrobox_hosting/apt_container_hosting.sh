@@ -9,8 +9,6 @@ mkdir --parents $LOGFILES
 export LOGFILE=$LOGFILES/apt_container_hosting.log
 rm --force $LOGFILE
 
-./apt_base_packages.sh
-
 export DEBIAN_FRONTEND=noninteractive
 sudo apt-get install -qqy \
   podman \

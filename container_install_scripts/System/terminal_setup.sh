@@ -1,1 +1,0 @@
-../../distrobox_hosting/2_terminal_setup.sh

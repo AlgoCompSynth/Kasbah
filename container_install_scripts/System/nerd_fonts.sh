@@ -1,1 +1,0 @@
-../../distrobox_hosting/nerd_fonts.sh

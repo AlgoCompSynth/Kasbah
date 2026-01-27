@@ -1,1 +1,0 @@
-../../distrobox_hosting/install_starship.sh
