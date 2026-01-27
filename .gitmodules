@@ -1,0 +1,3 @@
+[submodule "ollama-server"]
+	path = ollama-server
+	url = https://github.com/AlgoCompSynth/ollama-server
