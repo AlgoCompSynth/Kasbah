@@ -1,6 +1,7 @@
 #! /usr/bin/env bash
 
 set -e
+set -v
 
 echo "* Base Container *"
 
@@ -58,13 +59,14 @@ do
 
 done
 
+pushd starship-setup > /dev/null
+  distrobox enter "$DBX_CONTAINER_NAME" -- ./install_starship.sh
+popd > /dev/null
+
 pushd ./System > /dev/null
   for i in \
-    terminal_setup.sh \
     apt_system_upgrade.sh \
     apt_base_packages.sh \
-    ollama.sh \
-    aider.sh \
     apt_pkg_db_updates.sh
 
   do
