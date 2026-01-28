@@ -14,9 +14,15 @@ sudo apt-get update -qq
 sudo apt-get upgrade -qqy
 sudo apt-get install -qqy \
   apt-file \
+  build-essential \
+  cmake \
   curl \
+  doxygen \
+  gcc-arm-none-eabi \
   git \
   info \
+  libnewlib-arm-none-eabi \
+  libstdc++-arm-none-eabi-newlib \
   lsb-release \
   lynx \
   man-db \
