@@ -15,6 +15,7 @@ sudo apt-get upgrade -qqy
 sudo apt-get install -qqy \
   apt-file \
   curl \
+  git \
   info \
   lsb-release \
   lynx \

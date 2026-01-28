@@ -19,11 +19,6 @@ distrobox stop --yes $DBX_CONTAINER_NAME || true
 echo "Recursively removing any existing distrobox home directory $DBX_CONTAINER_DIRECTORY"
 rm --recursive --force $DBX_CONTAINER_DIRECTORY
 
-echo "Setting container and image names"
-echo "[$DBX_CONTAINER_NAME]" > distrobox.ini
-echo "image=$DBX_CONTAINER_IMAGE" >> distrobox.ini
-cat distrobox.ini.base >> distrobox.ini
-
 echo ""
 echo "Creating container - installing basic packages"
 echo "will take some time."
