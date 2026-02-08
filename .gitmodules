@@ -1,6 +1,0 @@
-[submodule "ollama-server"]
-	path = ollama-server
-	url = https://github.com/AlgoCompSynth/ollama-server
-[submodule "container_install_scripts/starship-setup"]
-	path = container_install_scripts/starship-setup
-	url = https://github.com/AlgoCompSynth/starship-setup
