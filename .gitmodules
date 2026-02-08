@@ -1,0 +1,6 @@
+[submodule "container-utilities"]
+	path = container-utilities
+	url = https://github.com/AlgoCompSynth/container-utilities.git
+[submodule "kastle2"]
+	path = kastle2
+	url = https://github.com/AlgoCompSynth/kastle2.git
